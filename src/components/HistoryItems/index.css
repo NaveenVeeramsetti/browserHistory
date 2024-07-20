@@ -1,0 +1,93 @@
+.list-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .list-item {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+.time {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  color: #64748b;
+}
+@media screen and (min-width: 768px) {
+  .time {
+    width: 90px;
+  }
+}
+.history-item-container {
+  display: flex;
+}
+@media screen and (min-width: 768px) {
+  .history-item-container {
+    align-items: center;
+  }
+}
+
+.logo-url {
+  height: 25px;
+}
+@media screen and (min-width: 768px) {
+  .logo-url {
+    margin-left: 30px;
+  }
+}
+.row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-right: 30px;
+  color: #475569;
+}
+@media screen and (max-width: 768px) {
+  .title {
+    margin-top: 0px;
+  }
+}
+.title-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  margin-left: 20px;
+}
+@media screen and (min-width: 768px) {
+  .title-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.domaine-url {
+  font-family: 'Roboto';
+  color: #64748b;
+}
+@media screen and (max-width: 768px) {
+  .domaine-url {
+    margin-top: 0px;
+  }
+  .title {
+    margin-bottom: 0px;
+  }
+}
+
+.button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin-left: 30px;
+  margin: 20px;
+}
